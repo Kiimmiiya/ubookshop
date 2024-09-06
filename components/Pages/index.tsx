@@ -117,7 +117,7 @@ const Page: PageEl = (props, state:
           
           <f-c>
           <f-c>
-            <img src="https://irmapserver.ir/research/16/Buy.webp"
+            <img src="https://cdn.ituring.ir/research/16/Buy.webp"
                 style={{ height: 70  , objectFit: "contain" }} />
               مجموع قابل پرداخت : {total_price.toLocaleString("fa-IR")} تومان
           </f-c>
@@ -125,7 +125,7 @@ const Page: PageEl = (props, state:
 
           <f-c>
           <f-c>
-            <img src="https://irmapserver.ir/research/16/Books.webp"
+            <img src="https://cdn.ituring.ir/research/16/Books.webp"
                 style={{ height: 60 , objectFit: "contain" }} />
             تعداد کتاب ها : {state.cart.length.toLocaleString("fa-IR")} عدد 
           </f-c>
@@ -165,7 +165,7 @@ export async function getServerSideProps(context) {
   let books = await global.db.collection("books").find({}).toArray()
 
   for (let book of books) {
-    book.imageLink = "https://irmapserver.ir/research/ex/books/" + book.imageLink
+    book.imageLink = "https://cdn.ituring.ir/research/ex/books/" + book.imageLink
   }
 
   console.log(books)

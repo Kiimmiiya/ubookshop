@@ -10,9 +10,9 @@ export const Block = props => {
     let size = props.state.cart.includes(props.book.title)?20:25
 
     return <c-c style={{
-        width: 150, flex: 1, minWidth: 150,
+        width: 200 , flex: 1 , minWidth: 200 ,
         position: "relative", backgroundColor:"#0000004B",
-        borderRadius:12 , margin:"20px",boxShadow:"0px 0px 10px 3px rgba(0 0 0 / 0.58)"
+        borderRadius:12 , margin:"15px",boxShadow:"0px 0px 10px 3px rgba(0 0 0 / 0.58)"
     }}>
 
         <img
@@ -20,7 +20,7 @@ export const Block = props => {
             src={props.book.imageLink}
             style={{
                 width: "100%" , 
-                height: 190 ,
+                height: 200 ,
                 objectFit: "fill" ,
                 minWidth: 150 , 
                 borderTopLeftRadius:8 ,
