@@ -110,11 +110,11 @@ const Page: PageEl = (props, state:
         <f-cse style={{
           height: 100 , width: "100%"
         }}>
-        
+
           <f-20 style={{
-             padding: "0 20px" , fontSize: 80 , color: "#000000"}}> Turing 
+             padding: "0 20px" , fontSize: 80 , color: "#000000"}}> Turing
           </f-20>
-          
+
           <f-c>
           <f-c>
             <img src="https://cdn.ituring.ir/research/16/Buy.webp"
@@ -127,11 +127,11 @@ const Page: PageEl = (props, state:
           <f-c>
             <img src="https://cdn.ituring.ir/research/16/Books.webp"
                 style={{ height: 60 , objectFit: "contain" }} />
-            تعداد کتاب ها : {state.cart.length.toLocaleString("fa-IR")} عدد 
+            تعداد کتاب ها : {state.cart.length.toLocaleString("fa-IR")} عدد
           </f-c>
           </f-c>
-        
-        
+
+
         </f-cse>
       </Window>
       <Window title={"Turing Bookshop"}

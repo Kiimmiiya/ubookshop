@@ -5,7 +5,7 @@ export const Block = props => {
     if (!props.state.cart) {
         props.state.cart = []
       }
-   
+
 
     let size = props.state.cart.includes(props.book.title)?20:25
 
@@ -19,10 +19,10 @@ export const Block = props => {
             className={global.styles.hover}
             src={props.book.imageLink}
             style={{
-                width: "100%" , 
+                width: "100%" ,
                 height: 200 ,
                 objectFit: "fill" ,
-                minWidth: 150 , 
+                minWidth: 150 ,
                 borderTopLeftRadius:8 ,
                 borderTopRightRadius:8 ,
             }}
