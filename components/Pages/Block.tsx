@@ -44,8 +44,8 @@ export const Block = props => {
         <f-csb style={{ width: "100%", padding: "5px 0" }}>
 
             <img src={props.state.cart.includes(props.book.title)?
-            "https://irmapserver.ir/research/16/Tic.webp":
-            "https://irmapserver.ir/research/16/S.B.webp"}
+            "https://cdn.ituring.ir/research/16/Tic.webp":
+            "https://cdn.ituring.ir/research/16/S.B.webp"}
 
             style={{height:size, width:size, objectFit:"contain",
                 margin:"0 10px"
