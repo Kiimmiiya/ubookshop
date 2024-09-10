@@ -18,3 +18,5 @@ You can start editing the page by modifying `components/Pages/index.tsx`. The pa
 <br/>
 <br/>
 <img src="https://github.com/Kiimmiiya/ubookshop/blob/main/bshopS.png?raw=true" />
+<img src="https://github.com/Kiimmiiya/ubookshop/blob/main/bshopS.png?raw=true" />
+
